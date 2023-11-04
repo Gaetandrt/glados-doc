@@ -30,21 +30,21 @@ function NavBar({ children }: NavBarProps) {
     }
   ], [pathname]);
   return (
-    <div className="flex w-full">
+    <div className="flex w-full p-4">
       <Logo
       />
-      <div className="hidden basis-1/2 md:flex flex-row gap-x-5 p-2 h-auto">
-        <Button>
-          Documentation
-        </Button>
-        <Button>
-          L'équipe
-        </Button>
-        <Button>
-          Communauté
-        </Button>
+      <div className="hidden basis-1/2 md:flex flex-row-reverse gap-x-5 h-auto grow">
         <Button className="p-3 font-si">
           <BsGithub size={22} />
+        </Button>
+        <Button className="flex-initial w-50">
+          Communauté
+        </Button>
+        <Button className="flex-initial w-50">
+          L'équipe
+        </Button>
+        <Button className="flex-initial w-50">
+          Documentation
         </Button>
 
       </div>
