@@ -10,8 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         'button-bg': '#333842',
-        'bg-color': '#292d36',
-        'home-box-bg': '#404550',
+        'bg-color': '#22262F',
+        'home-box-bg': '#16181d',
       },
     },
   },

@@ -8,6 +8,7 @@ import Button from "./Button";
 import Image from 'next/image'
 import Logo from '@/components/Logo';
 import Link from 'next/link';
+import { twMerge } from "tailwind-merge";
 
 interface NavBarProps {
   children: React.ReactNode;
@@ -16,15 +17,20 @@ interface NavBarProps {
 function NavBar({ children }: NavBarProps) {
   const pathname = usePathname();
 
+  const activeClassName = 'font-medium bg-blue-400/20 text-cyan-500';
+  const inactiveClassName = 'font-semibold hover:bg-button-bg';
   const routes = useMemo(() => [
     {
-      icon: HiHome,
-      label: 'Home',
-      active: pathname === '/',
-      href: '/',
+      label: 'Community',
+      active: pathname === '/community',
+      href: '/community',
     },
     {
-      icon: BiBookOpen,
+      label: 'Team',
+      active: pathname === '/team',
+      href: '/team',
+    },
+    {
       label: 'Learn',
       active: pathname === '/learn',
       href: '/learn',
@@ -32,22 +38,25 @@ function NavBar({ children }: NavBarProps) {
   ], [pathname]);
   return (
     <div>
-      <div className="flex w-full p-3 fixed top-0 z-10 border-b border-opacity-10 border-white shadow-md bg-bg-color h-[64px]">
-        <Logo
-        />
-        <div className="hidden md:flex flex-row-reverse gap-x-5 grow h-auto">
-          <Button className="font-si w-50">
-            <BsGithub size={22} />
+      <div className="flex items-center w-full p-0 fixed top-0 z-10 border-b border-opacity-10 border-white shadow bg-bg-color h-[64px]">
+        <div className="ml-4">
+          <Link href="/">
+            <Logo />
+          </Link>
+        </div>
+        <div className="hidden md:flex flex-row-reverse gap-x-3 grow h-auto">
+          <Button className={twMerge(" w-50 p-3 mr-4 rounded-2xl text-sm", inactiveClassName)}>
+            <a href="github.com">
+              <BsGithub size={22} />
+            </a>
           </Button>
-          <Button className="flex-initial w-50">
-            Communauté
-          </Button>
-          <Button className="flex-initial w-50">
-            L'équipe
-          </Button>
-          <Button className="flex-initial w-50">
-            Documentation
-          </Button>
+          {routes.map((route) => (
+            <Link href={route.href} key={route.label}>
+              <Button className={` w-50 p-3 rounded-2xl text-sm ${route.active ? activeClassName : inactiveClassName}`}>
+                {route.label}
+              </Button>
+            </Link>
+          ))}
         </div>
       </div>
       <main>

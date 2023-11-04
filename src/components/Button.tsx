@@ -10,7 +10,7 @@ interface ButtonProps {
 
 function Button({children, className}: ButtonProps) {
   return (
-    <button className={twMerge("font-light hover:bg-button-bg p-2 rounded-xl", className)}>
+    <button className={twMerge("transition duration-150 ease-in-out active:scale-[.90]", className)}>
         {children}
     </button>
   )
