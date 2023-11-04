@@ -6,6 +6,19 @@ html,
 body,
 :root {
   height: 100%;
+  margin: 0;
   background-color: #292d36;
   color-scheme: dark;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex: 1; /* Prend tout l'espace disponible */
+  overflow-y: auto; /* Ajoute un défilement si le contenu est plus grand que l'écran */
+  padding-top: 64px;
 }

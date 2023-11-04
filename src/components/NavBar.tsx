@@ -32,29 +32,27 @@ function NavBar({ children }: NavBarProps) {
   ], [pathname]);
   return (
     <div>
-    <div className="flex w-full fixed top-0 z-10 border-b border-opacity-95 border-white shadow-md bg-bg-color">
-      <Logo
-      />
-      <div className="hidden basis-1/2 md:flex flex-row gap-x-5 p-2 h-[64px]">
-        <Link href="/learn">
-          <Button>
+      <div className="flex w-full p-3 fixed top-0 z-10 border-b border-opacity-10 border-white shadow-md bg-bg-color h-[64px]">
+        <Logo
+        />
+        <div className="hidden md:flex flex-row-reverse gap-x-5 grow h-auto">
+          <Button className="font-si w-50">
+            <BsGithub size={22} />
+          </Button>
+          <Button className="flex-initial w-50">
+            Communauté
+          </Button>
+          <Button className="flex-initial w-50">
+            L'équipe
+          </Button>
+          <Button className="flex-initial w-50">
             Documentation
           </Button>
-        </Link>
-        <Button>
-          L'équipe
-        </Button>
-        <Button>
-          Communauté
-        </Button>
-        <Button className="p-3 font-si">
-          <BsGithub size={22} />
-        </Button>
+        </div>
       </div>
-    </div>
-    <main>
-      {children}
-    </main>
+      <main>
+        {children}
+      </main>
     </div>
   );
 }
