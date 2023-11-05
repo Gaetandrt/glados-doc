@@ -9,8 +9,9 @@ const Layout = ({
     <>
     <div className='flex flex-row'>
         <Sidebar />
-        <div className='p-3'>
+        <div className='flex-grow px-28 pt-10'>
         {children}
+
         </div>
     </div>
     </>
