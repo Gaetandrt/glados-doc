@@ -1,0 +1,32 @@
+/* styles.css */
+@keyframes rainbow-border {
+    0% {
+      border-color: #f00; /* Rouge */
+    }
+    16.67% {
+      border-color: #ff8000; /* Orange */
+    }
+    33.33% {
+      border-color: #ff0; /* Jaune */
+    }
+    50% {
+      border-color: #0f0; /* Vert */
+    }
+    66.67% {
+      border-color: #00f; /* Bleu */
+    }
+    83.33% {
+      border-color: #8b00ff; /* Indigo */
+    }
+    100% {
+      border-color: #f0f; /* Violet */
+    }
+  }
+  
+  .rainbow-border-animation {
+    border-width: 4px;
+    border-style: solid;
+    animation: rainbow-border 5s linear infinite; /* Ajustez la durée au besoin */
+    transition: border-color 0.5s ease-in-out; /* Ajoutez une transition à la couleur de la bordure */
+  }
+  
