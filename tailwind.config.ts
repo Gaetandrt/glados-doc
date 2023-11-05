@@ -12,6 +12,8 @@ const config: Config = {
         'button-bg': '#333842',
         'bg-color': '#22262F',
         'home-box-bg': '#16181d',
+        'hover-color': '#283540',
+        'text-color-react': '#139ECA',
       },
     },
   },
