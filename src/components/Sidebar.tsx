@@ -9,7 +9,7 @@ import LearnMenu from "./LearnItem";
 const Sidebar = () => {
 
   return (
-    <div className="h-screen pt-7 pb-8 bg-bg-color w-72">
+    <div className="h-auto pt-7 pb-8 bg-bg-color w-72">
       <div>
         <LearnMenu></LearnMenu>
       </div>
