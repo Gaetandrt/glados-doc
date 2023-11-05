@@ -8,9 +8,9 @@ interface ButtonProps {
     onClick?: () => void;
 }
 
-function Button({children, className}: ButtonProps) {
+function Button({children, className, onClick}: ButtonProps) {
   return (
-    <button className={twMerge("transition duration-150 ease-in-out active:scale-[.90]", className)}>
+    <button className={twMerge("transition duration-150 ease-in-out active:scale-[.90]", className)} onClick={onClick} >
         {children}
     </button>
   )

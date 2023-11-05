@@ -38,7 +38,26 @@ export default function Team() {
         </div>
       </Box>
       <Box className='bg-home-box-bg h-[600px]'>
-        <h1>Box 2 test</h1>
+        <div className='flex flex-col items-center'>
+          <div className='text-white font-medium text-5xl mb-10 mt-16'>
+            <h1>
+              Create caca with your hands
+            </h1>
+          </div>
+          <div>
+            <h2 className='text-white font-medium text-2xl text-center'>
+              You can easily create poop with your hands and your brain with Glados !<br />
+              Playing with your poopoo has never been that fun,<br />
+              thanks to Glados !
+            </h2>
+          </div>
+          <div className='mt-6 flex flex-row gap-x-5'>
+            <Link href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUIcmlja3JvbGw%3D' >
+            <Image src='/poop_toy.jpg' alt='caca' width={500} height={500}>
+            </Image>
+            </Link>
+          </div>
+        </div>
       </Box>
     </div>
   )

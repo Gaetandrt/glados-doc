@@ -50,7 +50,7 @@ function NavBar({ children }: NavBarProps) {
         <h1> Made with love by Spiderman team </h1>
         <div className="hidden md:flex flex-row-reverse gap-x-3 grow h-auto">
           <Button className={twMerge(" w-50 p-3 mr-4 rounded-2xl text-sm", inactiveClassName)}>
-            <a href="github.com">
+            <a href="https://github.com/Gaetandrt/glados-doc">
               <BsGithub size={22} />
             </a>
           </Button>
