@@ -17,8 +17,9 @@ interface NavBarProps {
 function NavBar({ children }: NavBarProps) {
   const pathname = usePathname();
 
-  const activeClassName = 'font-medium bg-blue-400/20 text-cyan-500';
+  const activeClassName = ' bg-blue-400/20 text-cyan-500';
   const inactiveClassName = 'font-semibold hover:bg-button-bg';
+
   const routes = useMemo(() => [
     {
       label: 'Community',
@@ -36,14 +37,17 @@ function NavBar({ children }: NavBarProps) {
       href: '/learn',
     }
   ], [pathname]);
+
   return (
     <div>
       <div className="flex items-center w-full p-0 fixed top-0 z-10 border-b border-opacity-10 border-white shadow bg-bg-color h-[64px]">
-        <div className="ml-4">
+        <div className="ml-4 transition duration-150 ease-in-out active:scale-[.90]">
           <Link href="/">
             <Logo />
           </Link>
         </div>
+        <hr className="hidden md:flex border-white border-opacity-100 border h-8 w-px mx-4" />
+        <h1> Made with love by Spiderman team </h1>
         <div className="hidden md:flex flex-row-reverse gap-x-3 grow h-auto">
           <Button className={twMerge(" w-50 p-3 mr-4 rounded-2xl text-sm", inactiveClassName)}>
             <a href="github.com">
