@@ -1,5 +1,6 @@
 import React from 'react';
-import LearnCard from '@/components/LearnCard';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { BsFillFileTextFill } from 'react-icons/bs';
 
 const dataTypes = [
@@ -9,7 +10,7 @@ const dataTypes = [
     utilisation: " Le type int est principalement utilisé pour stocker des valeurs numériques sans décimales. Il est couramment utilisé pour les opérations mathématiques, les compteurs, les indices de tableau et d'autres situations où seuls des nombres entiers sont nécessaires.",
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
     title: 'int',
-    code: 'int',
+    code: 'int = 12 + 1233 + 4; ' +'\n' + 'int = 12 + 1233 + 4;',
   },
   {
     description: " Le type de données float est utilisé pour représenter des nombres à virgule, c'est-à-dire des nombres avec des valeurs décimales. Il permet de stocker des valeurs réelles et fractionnaires.",
@@ -17,7 +18,7 @@ const dataTypes = [
     utilisation: " Le type float est largement utilisé pour effectuer des calculs mathématiques impliquant des nombres à virgule. Il est adapté pour stocker des données précises nécessitant des décimales.",
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
     title: 'float',
-    code: 'float',
+    code: 'float = 1,2 + 1,233 + 0,4',
   },
   {
     description: " Le type de données char est utilisé pour représenter des caractères individuels, y compris des lettres, des chiffres, des symboles ou d'autres caractères spéciaux.",
@@ -25,7 +26,7 @@ const dataTypes = [
     utilisation: " Le type char est souvent utilisé dans la manipulation de chaînes de caractères, le traitement de caractères individuels et la création de texte.",
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
     title: 'char',
-    code: 'char',
+    code: 'char = "a" + "b" + "c"',
   },
   {
     description: " Le type de données string est utilisé pour représenter des chaînes de caractères, c'est-à-dire une séquence de caractères. Il peut contenir des mots, des phrases, des paragraphes, ou tout autre texte.",
@@ -33,7 +34,7 @@ const dataTypes = [
     utilisation: " Le type string est essentiel pour la manipulation de texte, l'affichage d'informations et la communication avec les utilisateurs.",
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
     title: 'string',
-    code: 'string',
+    code: 'string = "Hello World"',
   },
   {
     description: " Le type de données bool (booléen) est utilisé pour représenter des valeurs booléennes, c'est-à-dire true (vrai) ou false (faux). Il est couramment utilisé pour prendre des décisions basées sur des conditions.",
@@ -41,7 +42,7 @@ const dataTypes = [
     utilisation: " Le type bool est essentiel pour les structures de contrôle, les déclarations conditionnelles et l'évaluation de la validité des conditions.",
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
     title: 'bool',
-    code: 'bool',
+    code: 'bool = true',
   },
 ];
 
@@ -66,16 +67,11 @@ function DocumentationPage() {
                 <p><strong>Utilisation:</strong>{dataType.utilisation}</p>
             </li>
           </ul>
-          <LearnCard
-            Icon={BsFillFileTextFill}
-            iconSize={33}
-            title={dataType.title}
-            className='mb-12'
-          >
-            <p>
-              <strong>Code:</strong> {dataType.code}
-            </p>
-          </LearnCard>
+          <div className='mx-7 mb-12'>
+            <SyntaxHighlighter language="c" style={atomDark}>
+              {dataType.code}
+            </SyntaxHighlighter>
+          </div>
         </div>
       ))}
     </div>
