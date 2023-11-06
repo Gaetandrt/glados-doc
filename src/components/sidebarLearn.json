@@ -19,36 +19,32 @@
         "sectionHeader": "LEARN REACT"
       },
       {
-        "title": "Describing the UI",
+        "title": "Basic Concepts",
         "tags": [],
-        "path": "/learn/describing-the-ui",
+        "path": "/learn/basic-concepts",
         "routes": [
           {
-            "title": "Your First Component",
-            "path": "/learn/your-first-component"
+            "title": "Types",
+            "path": "/learn/types-table"
           },
           {
-            "title": "Importing and Exporting Components",
-            "path": "/learn/importing-and-exporting-components"
-          },
-          {
-            "title": "Writing Markup with JSX",
-            "path": "/learn/writing-markup-with-jsx"
+            "title": "Fonction",
+            "path": "/learn/fonction"
           }
         ]
       },
       {
-        "title": "Adding Interactivity",
-        "path": "/learn/adding-interactivity",
+        "title": "Advanced",
+        "path": "/learn/advanced",
         "tags": [],
         "routes": [
           {
-            "title": "Responding to Events",
-            "path": "/learn/responding-to-events"
+            "title": "Enum / Struct",
+            "path": "/learn/enum-struct"
           },
           {
-            "title": "State: A Component's Memory",
-            "path": "/learn/state-a-components-memory"
+            "title": "Éléments de logique et de contrôle",
+            "path": "/learn/logique-controle"
           }
         ]
       }

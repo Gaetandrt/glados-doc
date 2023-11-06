@@ -2,6 +2,7 @@ import React from 'react'
 import { IconType } from 'react-icons';
 import { twMerge } from 'tailwind-merge';
 
+
 interface LearnCardProps {
   children: React.ReactNode;
   className?: string;

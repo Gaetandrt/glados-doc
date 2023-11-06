@@ -4,7 +4,7 @@ import { IoMdCheckboxOutline } from "react-icons/io";
 
 export default function Learn() {
   return (
-    <div className='p-10 w-full'>
+    <div className='p-10 w-full overflow-hidden'>
       <h1 className="font-semibold text-4xl mb-8">
         Quick Start
       </h1>

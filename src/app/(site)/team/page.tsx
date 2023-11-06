@@ -15,9 +15,6 @@ export default function Team() {
                   <div className='w-32 h-32 rounded-full bg-[url("/image/nicolas.jpg")] bg-cover bg-center mx-auto my-auto'></div>
                   <div className='w-32 h-32 rounded-full bg-[url("/image/sydney.jpg")] bg-cover bg-center mx-auto my-auto'></div>
                   <div className='w-32 h-32 rounded-full bg-[url("/image/flavio.jpg")] bg-cover bg-center mx-auto my-auto'></div>
-                  {/* <div className='w-32 h-32 bg-green-600'></div>
-                  <div className='w-32 h-32 bg-blue-600'></div> */}
-                  {/* <Image className='rounded-full w-32 h-32 overflow-hidden' src="/image/gaetan.jpg" width={200} height={200} alt='gaytan' /> */}
                 </div>
                 <div className='flex h-6 mb-9 mt-1 space-x-20'>
                   <div className='w-32 text-center'>
@@ -29,9 +26,6 @@ export default function Team() {
                   <div className='w-32 text-center'>
                     Flivio
                   </div>
-                  {/* <div className='w-32 h-32 bg-green-600'></div>
-                  <div className='w-32 h-32 bg-blue-600'></div> */}
-                  {/* <Image className='rounded-full w-32 h-32 overflow-hidden' src="/image/gaetan.jpg" width={200} height={200} alt='gaytan' /> */}
                 </div>
           <div className='flex flex-col items-center'>
             <div className='flex items-center space-x-20'>
