@@ -5,20 +5,20 @@ import { BsFillFileTextFill } from 'react-icons/bs';
 
 const dataTypes = [
   {
-    description: "Un enum (énumération) en programmation est une structure de données qui permet de définir un ensemble de valeurs constantes, généralement associées à un type spécifique. Ces valeurs constantes sont souvent utilisées pour représenter un ensemble fini d'options ou d'états. ",
-    exemple: " Un exemple courant d'utilisation du type int serait de stocker des âges, des numéros de téléphone, des quantités d'articles, des années, ou tout autre nombre entier. Par exemple, age = 30, quantity = 10, year = 2023.",
-    utilisation: " Le type int est principalement utilisé pour stocker des valeurs numériques sans décimales. Il est couramment utilisé pour les opérations mathématiques, les compteurs, les indices de tableau et d'autres situations où seuls des nombres entiers sont nécessaires.",
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+    description: "An enum (enumeration) in programming is a data structure that allows for the definition of a set of constant values, usually associated with a specific type. These constant values are often used to represent a finite set of options or states.",
+    exemple: "A common example of using the int type would be to store ages, phone numbers, item quantities, years, or any other integer number. For instance, age = 30, quantity = 10, year = 2023.",
+    utilisation: "The int type is primarily used to store numerical values without decimals. It is commonly used for mathematical operations, counters, array indices, and other situations where only whole numbers are required.",
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     title: 'enum',
-    code: 'int = 12 + 1233 + 4; ' +'\n' + 'int = 12 + 1233 + 4;',
+    code: 'int = 12 + 1233 + 4;' +'\n' + 'int = 12 + 1233 + 4;',
   },
   {
-    description: " Le type de données float est utilisé pour représenter des nombres à virgule, c'est-à-dire des nombres avec des valeurs décimales. Il permet de stocker des valeurs réelles et fractionnaires.",
-    exemple: " Un exemple courant d'utilisation du type float serait de stocker des prix, des coordonnées géographiques, des taux de change, ou d'autres valeurs qui nécessitent des décimales. Par exemple, price = 19.99, latitude = 34.0522, interestRate = 0.05.",
-    utilisation: " Le type float est largement utilisé pour effectuer des calculs mathématiques impliquant des nombres à virgule. Il est adapté pour stocker des données précises nécessitant des décimales.",
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+    description: "The float data type is used to represent floating-point numbers, that is, numbers with decimal values. It allows for the storage of real and fractional values.",
+    exemple: "A common example of using the float type would be to store prices, geographical coordinates, exchange rates, or other values that require decimals. For example, price = 19.99, latitude = 34.0522, interestRate = 0.05.",
+    utilisation: "The float type is widely used to perform mathematical calculations involving floating-point numbers. It is suitable for storing precise data requiring decimals.",
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     title: 'struct',
-    code: 'float = 1,2 + 1,233 + 0,4',
+    code: 'float = 1.2 + 1.233 + 0.4',
   },
 ];
 

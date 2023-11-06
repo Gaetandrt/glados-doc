@@ -5,12 +5,12 @@ import { BsFillFileTextFill } from 'react-icons/bs';
 
 const dataTypes = [
   {
-    description: "Une fonction est une portion de code dans un programme informatique qui effectue une tâche spécifique ou effectue un ensemble d'instructions.",
-    exemple: " Une fonction se déclare avec le mot-clé fun, suivi du nom de la fonction. Ensuite, entre parenthèses, les arguments ayant la syntaxe nom: type séparés par des virgules s'il y a plus d'un argument (il peut n'y avoir aucun argument). Une fonction retourne toujours un type, s'il ne retourne rien, mettre -> void.",
-    utilisation: "Les fonctions sont utilisées pour organiser et réutiliser du code, les rendant plus modulaires et faciles à gérer.",
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+    description: " A function is a block of code in a computer program that performs a specific task or carries out a set of instructions.",
+    exemple: " A function is declared with the keyword 'fun', followed by the name of the function. Then, in parentheses, the arguments with the syntax name: type separated by commas if there is more than one argument (there may be no arguments). A function always returns a type; if it returns nothing, use -> void.",
+    utilisation: " Functions are used to organize and reuse code, making them more modular and easier to manage.",
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     title: 'func',
-    code: "fun factorial(nbr: int) -> int\n{\n    if (nbr == 0) {\n        return 1;\n    }\n\n    return nbr * factorial(nbr - 1);\n\nfun main() -> int\n{\n    return 0;\n}",
+    code: "fun factorial(nbr: int) -> int\n{\n    if (nbr == 0) {\n        return 1;\n    }\n\n    return nbr * factorial(nbr - 1);\n\nfun main() -> void\n{\n    return 0;\n}",
   },
 ];
 

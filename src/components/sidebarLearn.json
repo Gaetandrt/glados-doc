@@ -24,7 +24,7 @@
             "path": "/learn/types-table"
           },
           {
-            "title": "Fonction",
+            "title": "Functions",
             "path": "/learn/fonction"
           }
         ]
@@ -39,7 +39,7 @@
             "path": "/learn/enum-struct"
           },
           {
-            "title": "Éléments de logique et de contrôle",
+            "title": "Elements of logic and control",
             "path": "/learn/logique-controle"
           }
         ]
