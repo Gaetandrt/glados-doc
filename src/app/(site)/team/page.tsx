@@ -66,7 +66,7 @@ export default function Team() {
           <div className='grow w-auto flex items-center justify-center bg-gradient-to-r from-bg-color to-purple-500 rounded-r-3xl'>
             <div className='text-center mx-8 text-white'>
               <a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Nicolas, le Tacticien du Code : Nicolas est un tacticien du software engineering, un fin stratège dans le domaine du code. Avec une intelligence tactique et un œil pour le détail, il orchestre les binaires et les langages de programmation pour créer des solutions logicielles qui sont à la fois robustes et innovantes, élevant l’ingénierie à la hauteur d'art.
               </a>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function Team() {
           <div className='grow w-auto flex items-center justify-center bg-gradient-to-l from-bg-color to-blue-800 rounded-l-3xl'>
             <div className='text-center mx-8 text-white'>
               <a>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Sydney, la Sculpteure de Logiciels : Sydney est la stratège de nos victoires logicielles, forgeant des programmes avec la précision d'un horloger et la créativité d'un artiste. Son code est un labyrinthe où chaque algorithme est une énigme résolue avec élégance, assurant que le moteur de notre technologie ronronne sans accroc.
               </a>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function Team() {
           <div className='grow w-auto flex items-center justify-center bg-gradient-to-r from-bg-color to-yellow-600 rounded-r-3xl'>
             <div className='text-center mx-8 text-white'>
               <a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Flavio, le Maître des Nuages : Flavio est l’architecte des cieux numériques, un véritable virtuose des infrastructures cloud. Avec une vision aussi large que l'horizon et une précision d’orfèvre, il tisse des solutions cloud qui soutiennent l’édifice de nos projets avec une fiabilité aussi inébranlable que les montagnes.
               </a>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function Team() {
           <div className='grow w-auto flex items-center justify-center bg-gradient-to-l from-bg-color to-red-800 rounded-l-3xl'>
             <div className='text-center mx-8 text-white'>
               <a>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Gaetan, l'Artisan des Mots : Gaetan possède un talent rare; ses doigts dansent sur le clavier avec la grâce d’un pianiste, composant des symphonies de documentation qui transforment les processus les plus complexes en narrations limpides. Chaque page qu'il produit est un parchemin de connaissance, rendant l’obscur lumineux et le compliqué accessible.
               </a>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function Team() {
           <div className='grow w-auto flex items-center justify-center bg-gradient-to-r from-bg-color to-green-800 rounded-r-3xl'>
             <div className='text-center mx-8 text-white'>
               <a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Martin, le Géant des Lettres : Martin, avec ses gros doigts agiles, défie les stéréotypes, transformant chaque frappe en une lettre précieuse qui contribue à créer des documents de référence impeccables. Son talent réside dans sa capacité à manier le clavier comme un maître sculpteur, où chaque document est taillé dans le marbre de l’expertise et poli par le souci du détail.
               </a>
             </div>
           </div>
