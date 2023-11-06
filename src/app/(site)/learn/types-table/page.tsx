@@ -44,6 +44,14 @@ const dataTypes = [
     title: 'bool',
     code: 'bool = true',
   },
+  {
+    description: " Créez des tableaux avec type[] (interdit avec void).",
+    exemple: " Les tableaux sont une structure de données polyvalente et largement utilisée dans la programmation pour une variété de tâches. Ils sont essentiels pour organiser, stocker et manipuler des données de manière efficace",
+    utilisation: " Stokage de données",
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+    title: 'Tableau',
+    code: 'type strArray = string[];\nint[]\nfloat[]\nchar[]\nstring[]\nbool[]',
+  },
 ];
 
 function DocumentationPage() {
