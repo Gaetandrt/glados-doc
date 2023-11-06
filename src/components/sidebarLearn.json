@@ -8,31 +8,11 @@
       },
       {
         "title": "Quick Start",
-        "path": "/learn",
-        "routes": [
-          {
-            "title": "Tutorial: Tic-Tac-Toe",
-            "path": "/learn/tutorial-tic-tac-toe"
-          },
-          {
-            "title": "Thinking in React",
-            "path": "/learn/thinking-in-react"
-          }
-        ]
+        "path": "/learn"
       },
       {
         "title": "Installation",
-        "path": "/learn/installation",
-        "routes": [
-          {
-            "title": "Start a New React Project",
-            "path": "/learn/start-a-new-react-project"
-          },
-          {
-            "title": "Add React to an Existing Project",
-            "path": "/learn/add-react-to-an-existing-project"
-          }
-        ]
+        "path": "/learn/installation"
       },
       {
         "hasSectionHeader": true,
