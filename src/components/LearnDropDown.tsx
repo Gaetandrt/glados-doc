@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Button from './Button';
 import { twMerge } from 'tailwind-merge';
+import { usePathname } from 'next/navigation';
 
 interface LearnDropDownProps {
   item: {
@@ -18,6 +19,7 @@ interface LearnDropDownProps {
 const LearnDropDown: React.FC<LearnDropDownProps> = ({ item, isOpen, onItemClick }) => {
   const activeClassName = 'bg-hover-color text-text-color-react';
   const inactiveClassName = 'hover:bg-hover-color';
+  const pathname = usePathname();
 
   const transitionClass = isOpen
     ? "transition ease-out duration-100 transform translate-y-0 opacity-100 max-h-56"
@@ -36,9 +38,11 @@ const LearnDropDown: React.FC<LearnDropDownProps> = ({ item, isOpen, onItemClick
               <div>
                 {item.title}
               </div>
-              <div className={twMerge('transition font-semibold', isOpen ? "transform rotate-90" : "")}>
-                &gt;
-              </div>
+              {(item.routes?.length ?? 0) > 0 && (
+                <div className={twMerge('transition font-semibold', isOpen ? "transform rotate-90" : "")}>
+                  &gt;
+                </div>
+              )}
             </div>
           </Button>
           {isOpen && (

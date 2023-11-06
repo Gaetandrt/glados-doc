@@ -7,9 +7,9 @@ const LearnMenu = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const pathname = usePathname();
 
-  useEffect(() => {
+  useState(() => {
     if (pathname === '/learn') {
-      setActiveIndex(0);
+      setActiveIndex(1);
     }
   });
 

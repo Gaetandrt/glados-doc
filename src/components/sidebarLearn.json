@@ -11,10 +11,6 @@
         "path": "/learn"
       },
       {
-        "title": "Installation",
-        "path": "/learn/installation"
-      },
-      {
         "hasSectionHeader": true,
         "sectionHeader": "LEARN REACT"
       },
