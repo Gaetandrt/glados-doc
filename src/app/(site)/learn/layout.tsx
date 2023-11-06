@@ -7,7 +7,7 @@ const Layout = ({
   }) => {
   return (
     <>
-    <div className='flex flex-row h-[92%]'>
+    <div className='flex flex-row'>
         <Sidebar />
         <div className='flex-grow px-28 pt-10'>
         {children}
